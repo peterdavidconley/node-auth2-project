@@ -18,6 +18,9 @@ function find() {
       }
     ]
    */
+
+    return db('users')
+
 }
 
 function findBy(filter) {
